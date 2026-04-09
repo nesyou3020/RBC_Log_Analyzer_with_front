@@ -1,0 +1,15 @@
+[project]
+name = "rbc-log-analyzer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.135.2",
+    "motor>=3.7.1",
+    "openpyxl>=3.1.5",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "pymongo>=4.16.0",
+    "uvicorn>=0.42.0",
+]
